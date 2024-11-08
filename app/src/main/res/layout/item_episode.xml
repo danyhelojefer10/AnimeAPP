@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="8dp"
+    android:elevation="2dp">
+
+    <!-- Título del episodio con formato "Episodio N: Nombre" -->
+    <TextView
+        android:id="@+id/episodeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:paddingBottom="4dp"
+        android:text="Episodio 1: Nombre del Episodio" />
+
+    <!-- Fecha de publicación -->
+    <TextView
+        android:id="@+id/episodeDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#777777"
+        android:text="Fecha de emisión: 2023-10-10" />
+</LinearLayout>
